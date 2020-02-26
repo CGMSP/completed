@@ -7,16 +7,16 @@ print(x)
 
 # lists
 fruits = ['apple', 'banana', 'orange']
-print("The 0th entry in fruits is" fruits[0])
+print("The 0th entry in fruits is", fruits[0])
 print("fruits is", fruits)
 fruits.append('pomagranate')
-print("fruits in now" fruits)
+print("fruits in now", fruits)
 
 # Conditional statements
 myBool = True
-if myBool == true:
+if myBool == True:
   print("My boolean variable is true")
-elif myBool == false:
+elif myBool == False:
   print("My boolean variable is false.")
 else:
   print("Oops")
@@ -53,6 +53,6 @@ while True:
 # or
 
 x = 5
-while x <= 0
+while x <= 0:
     print("Hi")
     x += 1
