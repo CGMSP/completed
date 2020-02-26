@@ -25,3 +25,34 @@ else:
 name = input("What is your name?")
 age = float(input("How old are you"))
 info = [name, age]
+
+# sleep
+import time
+print("this happened")
+time.sleep(1)
+print("this happened a second later")
+# or
+from time import *
+print("hi")
+sleep(1)
+print("bye")
+
+
+# Loops
+import time
+fruits = ["apple", "banana", "pear"]
+for fruit in fruits:
+    print("one of my fruits is")
+    print(fruit)
+    time.sleep(1)
+    
+# while
+while True:
+    print("this is happening forever")
+
+# or
+
+x = 5
+while x <= 0
+    print("Hi")
+    x += 1
