@@ -1,8 +1,8 @@
 # print
-print("Stuff")
+print("Hello world")
 
 # Variables
-x = 'stuff'
+x = 'string'
 print(x)
 
 # lists
@@ -45,14 +45,46 @@ for fruit in fruits:
     print("one of my fruits is")
     print(fruit)
     time.sleep(1)
-    
+
 # while
 while True:
-    print("this is happening forever")
-
+    print("this is not happening forever")
+    break
 # or
 
 x = 5
 while x <= 0:
     print("Hi")
     x += 1
+
+# For
+from time import *
+fruits = ["apple", "banana", "pear"]
+for fruit in fruits:
+  print(fruit)
+  sleep(1)
+
+# range
+max = int(input("Up to what number would you like to square?"))
+for i in range(max + 1):
+  print("The square of", i, "is", i ** 2)
+
+# Functions
+# w/o arguments
+def myFunction():
+    print("Hello from a function!")
+for i in range(10):
+    myFunction()
+
+# w/ arguments
+def square(x):
+    x = x ** 2
+    return x
+
+print(square(16))
+
+def printSquares(max):
+    for i in range(max):
+      print("The square of", i, "is", i ** 2)
+
+printSquares(12)
