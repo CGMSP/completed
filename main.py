@@ -88,3 +88,13 @@ def printSquares(max):
       print("The square of", i, "is", i ** 2)
 
 printSquares(12)
+
+# Factor function for students
+def factor(x):
+    factors = []
+    i = 1
+    for i in range(1, x+1):
+        if x % i == 0:
+            factors.append(i)
+    return factors
+print(factor(24))
